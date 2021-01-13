@@ -28,7 +28,7 @@ spec:
         tier: backend
     spec:
       imagePullSecrets:
-        - name: registrykey-01
+        - name: aliyun-rck
       containers:
         - env:
             - name: CACHE_IGNORE
