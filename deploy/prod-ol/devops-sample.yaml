@@ -27,6 +27,8 @@ spec:
         component: ks-sample
         tier: backend
     spec:
+      imagePullSecrets:
+        - name: registrykey-01
       containers:
         - env:
             - name: CACHE_IGNORE
